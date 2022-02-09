@@ -79,6 +79,7 @@
 		B04BBEB027B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceClinicianDriveCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04BBEB227B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorUITests.swift; sourceTree = "<group>"; };
 		B04BBEB427B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0D9263927B37C8800FFA789 /* NiceClinicianDriveCalculator--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NiceClinicianDriveCalculator--iOS--Info.plist"; sourceTree = "<group>"; };
 		B0FD727727B0832E0063CE90 /* NiceClinicianDriveCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorApp.swift; sourceTree = "<group>"; };
 		B0FD727927B083300063CE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0FD727E27B083300063CE90 /* NiceClinicianDriveCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceClinicianDriveCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +170,7 @@
 		B0FD727127B0832E0063CE90 = {
 			isa = PBXGroup;
 			children = (
+				B0D9263927B37C8800FFA789 /* NiceClinicianDriveCalculator--iOS--Info.plist */,
 				B0FD727627B0832E0063CE90 /* Shared */,
 				B04BBE9127B239B600AB2B41 /* NiceClinicianDriveCalculatorTests */,
 				B04BBEB127B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests */,
@@ -651,9 +653,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NiceClinicianDriveCalculator--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -680,9 +682,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NiceClinicianDriveCalculator--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
