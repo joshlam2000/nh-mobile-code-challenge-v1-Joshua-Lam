@@ -49,7 +49,6 @@ class PatientClinicianIdealDistanceCalculatorTests: XCTestCase {
         let clinician = mockClinician1
         clinician.distanceToNearestLab = 5
         patient.includeLab = true
-        patient.idealClinician = clinician
         let mockDistance = 10
         let patientClinicianIdealDistCal = PatientClinicianIdealDistanceCalculator()
         let distanceWithLab = patientClinicianIdealDistCal.nearestVisitingClinicianTotalDistance(includeLab: patient.includeLab, potentialClinican: clinician, oneWayDistanceBetweenPatientAndClinician: mockDistance)
