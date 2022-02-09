@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04BBE7F27B1C32E00AB2B41 /* ClinicianLabIdealDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE7E27B1C32E00AB2B41 /* ClinicianLabIdealDistanceCalculator.swift */; };
+		B04BBE8127B1C98A00AB2B41 /* PatientClinicianIdealDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE8027B1C98A00AB2B41 /* PatientClinicianIdealDistanceCalculator.swift */; };
+		B04BBE8327B1EA4600AB2B41 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE8227B1EA4600AB2B41 /* DataSource.swift */; };
+		B04BBE8627B21BCC00AB2B41 /* DriveCalculatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE8527B21BCC00AB2B41 /* DriveCalculatorError.swift */; };
+		B04BBE8927B221FA00AB2B41 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE8827B221FA00AB2B41 /* String+Extention.swift */; };
+		B04BBE9327B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE9227B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.swift */; };
+		B04BBE9927B239C000AB2B41 /* AddressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE8A27B2374800AB2B41 /* AddressTest.swift */; };
+		B04BBE9B27B23C8700AB2B41 /* ClinicianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE9A27B23C8700AB2B41 /* ClinicianTests.swift */; };
+		B04BBE9D27B23F9200AB2B41 /* LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE9C27B23F9200AB2B41 /* LabTests.swift */; };
+		B04BBE9F27B2405400AB2B41 /* PatientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBE9E27B2405400AB2B41 /* PatientTests.swift */; };
+		B04BBEA127B241DB00AB2B41 /* ClinicianLabIdealDistanceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEA027B241DB00AB2B41 /* ClinicianLabIdealDistanceCalculatorTests.swift */; };
+		B04BBEA527B2D6FB00AB2B41 /* ClinicianDisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEA427B2D6FB00AB2B41 /* ClinicianDisplayViewModel.swift */; };
+		B04BBEA727B2FFA500AB2B41 /* PatientClinicianIdealDistanceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEA627B2FFA500AB2B41 /* PatientClinicianIdealDistanceCalculatorTests.swift */; };
+		B04BBEA927B3091500AB2B41 /* ClinicanDisplayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEA827B3091500AB2B41 /* ClinicanDisplayViewModelTests.swift */; };
+		B04BBEAB27B30C2900AB2B41 /* ClinicianIdealDrivingCalculatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEAA27B30C2900AB2B41 /* ClinicianIdealDrivingCalculatorViewModelTests.swift */; };
+		B04BBEB327B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEB227B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift */; };
+		B04BBEB527B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04BBEB427B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift */; };
+		B0FD729F27B083300063CE90 /* NiceClinicianDriveCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD727727B0832E0063CE90 /* NiceClinicianDriveCalculatorApp.swift */; };
+		B0FD72A327B083300063CE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD727927B083300063CE90 /* Assets.xcassets */; };
+		B0FD72B427B09F240063CE90 /* ClinicianDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72B327B09F240063CE90 /* ClinicianDisplayView.swift */; };
+		B0FD72B727B09FD30063CE90 /* ClinicianIdealDriveCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72B627B09FD30063CE90 /* ClinicianIdealDriveCalculatorView.swift */; };
+		B0FD72BC27B0BECC0063CE90 /* ClinicianIdealDriveCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72BB27B0BECC0063CE90 /* ClinicianIdealDriveCalculatorViewModel.swift */; };
+		B0FD72C027B0C6490063CE90 /* clinicians.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FD72BF27B0C6490063CE90 /* clinicians.json */; };
+		B0FD72C227B0C6810063CE90 /* labs.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FD72C127B0C6810063CE90 /* labs.json */; };
+		B0FD72C527B0C6EB0063CE90 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72C427B0C6EB0063CE90 /* FileManager.swift */; };
+		B0FD72C727B0C7910063CE90 /* ClinicianDecodedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72C627B0C7910063CE90 /* ClinicianDecodedData.swift */; };
+		B0FD72C927B0C7CC0063CE90 /* LabDecodedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72C827B0C7CC0063CE90 /* LabDecodedData.swift */; };
+		B0FD72CC27B0CB730063CE90 /* Locatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72CB27B0CB730063CE90 /* Locatable.swift */; };
+		B0FD72D027B0CBDF0063CE90 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72CF27B0CBDF0063CE90 /* Address.swift */; };
+		B0FD72D227B0CDB00063CE90 /* Clinician.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72D127B0CDB00063CE90 /* Clinician.swift */; };
+		B0FD72D427B0CEE80063CE90 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72D327B0CEE80063CE90 /* Lab.swift */; };
+		B0FD72D627B0CFFE0063CE90 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72D527B0CFFE0063CE90 /* Patient.swift */; };
+		B0FD72D827B1004A0063CE90 /* IdealDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD72D727B1004A0063CE90 /* IdealDistanceCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04BBE9427B239B600AB2B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FD727227B0832E0063CE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FD727D27B083300063CE90;
+			remoteInfo = "NiceClinicianDriveCalculator (iOS)";
+		};
+		B04BBEB627B321EB00AB2B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FD727227B0832E0063CE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FD727D27B083300063CE90;
+			remoteInfo = "NiceClinicianDriveCalculator (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04BBE7E27B1C32E00AB2B41 /* ClinicianLabIdealDistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianLabIdealDistanceCalculator.swift; sourceTree = "<group>"; };
+		B04BBE8027B1C98A00AB2B41 /* PatientClinicianIdealDistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientClinicianIdealDistanceCalculator.swift; sourceTree = "<group>"; };
+		B04BBE8227B1EA4600AB2B41 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		B04BBE8527B21BCC00AB2B41 /* DriveCalculatorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveCalculatorError.swift; sourceTree = "<group>"; };
+		B04BBE8827B221FA00AB2B41 /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		B04BBE8A27B2374800AB2B41 /* AddressTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTest.swift; sourceTree = "<group>"; };
+		B04BBE9027B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceClinicianDriveCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04BBE9227B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorTests.swift; sourceTree = "<group>"; };
+		B04BBE9A27B23C8700AB2B41 /* ClinicianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianTests.swift; sourceTree = "<group>"; };
+		B04BBE9C27B23F9200AB2B41 /* LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTests.swift; sourceTree = "<group>"; };
+		B04BBE9E27B2405400AB2B41 /* PatientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTests.swift; sourceTree = "<group>"; };
+		B04BBEA027B241DB00AB2B41 /* ClinicianLabIdealDistanceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianLabIdealDistanceCalculatorTests.swift; sourceTree = "<group>"; };
+		B04BBEA427B2D6FB00AB2B41 /* ClinicianDisplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianDisplayViewModel.swift; sourceTree = "<group>"; };
+		B04BBEA627B2FFA500AB2B41 /* PatientClinicianIdealDistanceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientClinicianIdealDistanceCalculatorTests.swift; sourceTree = "<group>"; };
+		B04BBEA827B3091500AB2B41 /* ClinicanDisplayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicanDisplayViewModelTests.swift; sourceTree = "<group>"; };
+		B04BBEAA27B30C2900AB2B41 /* ClinicianIdealDrivingCalculatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianIdealDrivingCalculatorViewModelTests.swift; sourceTree = "<group>"; };
+		B04BBEB027B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceClinicianDriveCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04BBEB227B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorUITests.swift; sourceTree = "<group>"; };
+		B04BBEB427B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0FD727727B0832E0063CE90 /* NiceClinicianDriveCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceClinicianDriveCalculatorApp.swift; sourceTree = "<group>"; };
+		B0FD727927B083300063CE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0FD727E27B083300063CE90 /* NiceClinicianDriveCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceClinicianDriveCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD72B327B09F240063CE90 /* ClinicianDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianDisplayView.swift; sourceTree = "<group>"; };
+		B0FD72B627B09FD30063CE90 /* ClinicianIdealDriveCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianIdealDriveCalculatorView.swift; sourceTree = "<group>"; };
+		B0FD72BB27B0BECC0063CE90 /* ClinicianIdealDriveCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianIdealDriveCalculatorViewModel.swift; sourceTree = "<group>"; };
+		B0FD72BF27B0C6490063CE90 /* clinicians.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clinicians.json; sourceTree = "<group>"; };
+		B0FD72C127B0C6810063CE90 /* labs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = labs.json; sourceTree = "<group>"; };
+		B0FD72C427B0C6EB0063CE90 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		B0FD72C627B0C7910063CE90 /* ClinicianDecodedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianDecodedData.swift; sourceTree = "<group>"; };
+		B0FD72C827B0C7CC0063CE90 /* LabDecodedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabDecodedData.swift; sourceTree = "<group>"; };
+		B0FD72CB27B0CB730063CE90 /* Locatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locatable.swift; sourceTree = "<group>"; };
+		B0FD72CF27B0CBDF0063CE90 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B0FD72D127B0CDB00063CE90 /* Clinician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinician.swift; sourceTree = "<group>"; };
+		B0FD72D327B0CEE80063CE90 /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
+		B0FD72D527B0CFFE0063CE90 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		B0FD72D727B1004A0063CE90 /* IdealDistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdealDistanceCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04BBE8D27B239B600AB2B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04BBEAD27B321EB00AB2B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD727B27B083300063CE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04BBE8427B2151500AB2B41 /* DistanceCalculators */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72D727B1004A0063CE90 /* IdealDistanceCalculator.swift */,
+				B04BBE7E27B1C32E00AB2B41 /* ClinicianLabIdealDistanceCalculator.swift */,
+				B04BBE8027B1C98A00AB2B41 /* PatientClinicianIdealDistanceCalculator.swift */,
+			);
+			path = DistanceCalculators;
+			sourceTree = "<group>";
+		};
+		B04BBE8727B221E600AB2B41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B04BBE8827B221FA00AB2B41 /* String+Extention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B04BBE9127B239B600AB2B41 /* NiceClinicianDriveCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04BBE9227B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.swift */,
+				B04BBE8A27B2374800AB2B41 /* AddressTest.swift */,
+				B04BBE9A27B23C8700AB2B41 /* ClinicianTests.swift */,
+				B04BBE9C27B23F9200AB2B41 /* LabTests.swift */,
+				B04BBE9E27B2405400AB2B41 /* PatientTests.swift */,
+				B04BBEA027B241DB00AB2B41 /* ClinicianLabIdealDistanceCalculatorTests.swift */,
+				B04BBEA627B2FFA500AB2B41 /* PatientClinicianIdealDistanceCalculatorTests.swift */,
+				B04BBEA827B3091500AB2B41 /* ClinicanDisplayViewModelTests.swift */,
+				B04BBEAA27B30C2900AB2B41 /* ClinicianIdealDrivingCalculatorViewModelTests.swift */,
+			);
+			path = NiceClinicianDriveCalculatorTests;
+			sourceTree = "<group>";
+		};
+		B04BBEB127B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04BBEB227B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift */,
+				B04BBEB427B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift */,
+			);
+			path = NiceClinicianDriveCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		B0FD727127B0832E0063CE90 = {
+			isa = PBXGroup;
+			children = (
+				B0FD727627B0832E0063CE90 /* Shared */,
+				B04BBE9127B239B600AB2B41 /* NiceClinicianDriveCalculatorTests */,
+				B04BBEB127B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests */,
+				B0FD727F27B083300063CE90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FD727627B0832E0063CE90 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72CA27B0CAA20063CE90 /* Models */,
+				B0FD72C327B0C6D90063CE90 /* Utils */,
+				B0FD72BE27B0C6090063CE90 /* Resources */,
+				B0FD72BD27B0C5E20063CE90 /* JSON */,
+				B0FD72BA27B0BE660063CE90 /* ViewModels */,
+				B0FD72B927B0BE4D0063CE90 /* Views */,
+				B0FD727727B0832E0063CE90 /* NiceClinicianDriveCalculatorApp.swift */,
+				B0FD727927B083300063CE90 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B0FD727F27B083300063CE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD727E27B083300063CE90 /* NiceClinicianDriveCalculator.app */,
+				B04BBE9027B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.xctest */,
+				B04BBEB027B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FD72B927B0BE4D0063CE90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72B327B09F240063CE90 /* ClinicianDisplayView.swift */,
+				B0FD72B627B09FD30063CE90 /* ClinicianIdealDriveCalculatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0FD72BA27B0BE660063CE90 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B04BBE8427B2151500AB2B41 /* DistanceCalculators */,
+				B0FD72BB27B0BECC0063CE90 /* ClinicianIdealDriveCalculatorViewModel.swift */,
+				B04BBEA427B2D6FB00AB2B41 /* ClinicianDisplayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B0FD72BD27B0C5E20063CE90 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72C627B0C7910063CE90 /* ClinicianDecodedData.swift */,
+				B0FD72C827B0C7CC0063CE90 /* LabDecodedData.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B0FD72BE27B0C6090063CE90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72BF27B0C6490063CE90 /* clinicians.json */,
+				B0FD72C127B0C6810063CE90 /* labs.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0FD72C327B0C6D90063CE90 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B04BBE8727B221E600AB2B41 /* Extension */,
+				B0FD72C427B0C6EB0063CE90 /* FileManager.swift */,
+				B04BBE8227B1EA4600AB2B41 /* DataSource.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B0FD72CA27B0CAA20063CE90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD72CB27B0CB730063CE90 /* Locatable.swift */,
+				B0FD72CF27B0CBDF0063CE90 /* Address.swift */,
+				B0FD72D127B0CDB00063CE90 /* Clinician.swift */,
+				B0FD72D327B0CEE80063CE90 /* Lab.swift */,
+				B0FD72D527B0CFFE0063CE90 /* Patient.swift */,
+				B04BBE8527B21BCC00AB2B41 /* DriveCalculatorError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04BBE8F27B239B600AB2B41 /* NiceClinicianDriveCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04BBE9627B239B600AB2B41 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculatorTests" */;
+			buildPhases = (
+				B04BBE8C27B239B600AB2B41 /* Sources */,
+				B04BBE8D27B239B600AB2B41 /* Frameworks */,
+				B04BBE8E27B239B600AB2B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04BBE9527B239B600AB2B41 /* PBXTargetDependency */,
+			);
+			name = NiceClinicianDriveCalculatorTests;
+			productName = NiceClinicianDriveCalculatorTests;
+			productReference = B04BBE9027B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04BBEAF27B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04BBEB827B321EB00AB2B41 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculatorUITests" */;
+			buildPhases = (
+				B04BBEAC27B321EB00AB2B41 /* Sources */,
+				B04BBEAD27B321EB00AB2B41 /* Frameworks */,
+				B04BBEAE27B321EB00AB2B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04BBEB727B321EB00AB2B41 /* PBXTargetDependency */,
+			);
+			name = NiceClinicianDriveCalculatorUITests;
+			productName = NiceClinicianDriveCalculatorUITests;
+			productReference = B04BBEB027B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0FD727D27B083300063CE90 /* NiceClinicianDriveCalculator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD72A727B083300063CE90 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculator (iOS)" */;
+			buildPhases = (
+				B0FD727A27B083300063CE90 /* Sources */,
+				B0FD727B27B083300063CE90 /* Frameworks */,
+				B0FD727C27B083300063CE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NiceClinicianDriveCalculator (iOS)";
+			productName = "NiceClinicianDriveCalculator (iOS)";
+			productReference = B0FD727E27B083300063CE90 /* NiceClinicianDriveCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FD727227B0832E0063CE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B04BBE8F27B239B600AB2B41 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B0FD727D27B083300063CE90;
+					};
+					B04BBEAF27B321EB00AB2B41 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B0FD727D27B083300063CE90;
+					};
+					B0FD727D27B083300063CE90 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B0FD727527B0832E0063CE90 /* Build configuration list for PBXProject "NiceClinicianDriveCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FD727127B0832E0063CE90;
+			productRefGroup = B0FD727F27B083300063CE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FD727D27B083300063CE90 /* NiceClinicianDriveCalculator (iOS) */,
+				B04BBE8F27B239B600AB2B41 /* NiceClinicianDriveCalculatorTests */,
+				B04BBEAF27B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04BBE8E27B239B600AB2B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04BBEAE27B321EB00AB2B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD727C27B083300063CE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD72C027B0C6490063CE90 /* clinicians.json in Resources */,
+				B0FD72A327B083300063CE90 /* Assets.xcassets in Resources */,
+				B0FD72C227B0C6810063CE90 /* labs.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04BBE8C27B239B600AB2B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04BBEA727B2FFA500AB2B41 /* PatientClinicianIdealDistanceCalculatorTests.swift in Sources */,
+				B04BBE9B27B23C8700AB2B41 /* ClinicianTests.swift in Sources */,
+				B04BBE9927B239C000AB2B41 /* AddressTest.swift in Sources */,
+				B04BBE9327B239B600AB2B41 /* NiceClinicianDriveCalculatorTests.swift in Sources */,
+				B04BBEA927B3091500AB2B41 /* ClinicanDisplayViewModelTests.swift in Sources */,
+				B04BBE9D27B23F9200AB2B41 /* LabTests.swift in Sources */,
+				B04BBE9F27B2405400AB2B41 /* PatientTests.swift in Sources */,
+				B04BBEAB27B30C2900AB2B41 /* ClinicianIdealDrivingCalculatorViewModelTests.swift in Sources */,
+				B04BBEA127B241DB00AB2B41 /* ClinicianLabIdealDistanceCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04BBEAC27B321EB00AB2B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04BBEB327B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITests.swift in Sources */,
+				B04BBEB527B321EB00AB2B41 /* NiceClinicianDriveCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD727A27B083300063CE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD72D027B0CBDF0063CE90 /* Address.swift in Sources */,
+				B04BBE7F27B1C32E00AB2B41 /* ClinicianLabIdealDistanceCalculator.swift in Sources */,
+				B04BBE8127B1C98A00AB2B41 /* PatientClinicianIdealDistanceCalculator.swift in Sources */,
+				B0FD72CC27B0CB730063CE90 /* Locatable.swift in Sources */,
+				B0FD72D227B0CDB00063CE90 /* Clinician.swift in Sources */,
+				B0FD72C527B0C6EB0063CE90 /* FileManager.swift in Sources */,
+				B04BBE8327B1EA4600AB2B41 /* DataSource.swift in Sources */,
+				B04BBE8627B21BCC00AB2B41 /* DriveCalculatorError.swift in Sources */,
+				B0FD72BC27B0BECC0063CE90 /* ClinicianIdealDriveCalculatorViewModel.swift in Sources */,
+				B0FD72D627B0CFFE0063CE90 /* Patient.swift in Sources */,
+				B0FD72D827B1004A0063CE90 /* IdealDistanceCalculator.swift in Sources */,
+				B04BBEA527B2D6FB00AB2B41 /* ClinicianDisplayViewModel.swift in Sources */,
+				B0FD72C727B0C7910063CE90 /* ClinicianDecodedData.swift in Sources */,
+				B0FD72C927B0C7CC0063CE90 /* LabDecodedData.swift in Sources */,
+				B04BBE8927B221FA00AB2B41 /* String+Extention.swift in Sources */,
+				B0FD729F27B083300063CE90 /* NiceClinicianDriveCalculatorApp.swift in Sources */,
+				B0FD72D427B0CEE80063CE90 /* Lab.swift in Sources */,
+				B0FD72B727B09FD30063CE90 /* ClinicianIdealDriveCalculatorView.swift in Sources */,
+				B0FD72B427B09F240063CE90 /* ClinicianDisplayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04BBE9527B239B600AB2B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FD727D27B083300063CE90 /* NiceClinicianDriveCalculator (iOS) */;
+			targetProxy = B04BBE9427B239B600AB2B41 /* PBXContainerItemProxy */;
+		};
+		B04BBEB727B321EB00AB2B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FD727D27B083300063CE90 /* NiceClinicianDriveCalculator (iOS) */;
+			targetProxy = B04BBEB627B321EB00AB2B41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B04BBE9727B239B600AB2B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceClinicianDriveCalculator.app/NiceClinicianDriveCalculator";
+			};
+			name = Debug;
+		};
+		B04BBE9827B239B600AB2B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceClinicianDriveCalculator.app/NiceClinicianDriveCalculator";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04BBEB927B321EB00AB2B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NiceClinicianDriveCalculator (iOS)";
+			};
+			name = Debug;
+		};
+		B04BBEBA27B321EB00AB2B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NiceClinicianDriveCalculator (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FD72A527B083300063CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0FD72A627B083300063CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B0FD72A827B083300063CE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculator;
+				PRODUCT_NAME = NiceClinicianDriveCalculator;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0FD72A927B083300063CE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshualam.NiceClinicianDriveCalculator;
+				PRODUCT_NAME = NiceClinicianDriveCalculator;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04BBE9627B239B600AB2B41 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04BBE9727B239B600AB2B41 /* Debug */,
+				B04BBE9827B239B600AB2B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04BBEB827B321EB00AB2B41 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04BBEB927B321EB00AB2B41 /* Debug */,
+				B04BBEBA27B321EB00AB2B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD727527B0832E0063CE90 /* Build configuration list for PBXProject "NiceClinicianDriveCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD72A527B083300063CE90 /* Debug */,
+				B0FD72A627B083300063CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD72A727B083300063CE90 /* Build configuration list for PBXNativeTarget "NiceClinicianDriveCalculator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD72A827B083300063CE90 /* Debug */,
+				B0FD72A927B083300063CE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FD727227B0832E0063CE90 /* Project object */;
+}

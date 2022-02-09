@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06A3D0D2-323C-427C-9225-CB81F75BF128"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52CC167F-A9B8-4425-8916-CCCD5C858B71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ViewModels/ClinicianLabIdealDistanceCalculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "findNearestLabsForClinicians(_:labs:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16DEA057-800B-48F1-BFD8-912D9C90430C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ViewModels/IdealDistanceCalculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "detemineIdealDistance(subject:targets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2A84F8E-1D8F-4735-82AA-7E210B82A918"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "testFindNearestLabsForClinicians()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2A84F8E-1D8F-4735-82AA-7E210B82A918 - b5178c24fe109396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1185">
+               </Location>
+               <Location
+                  uuid = "A2A84F8E-1D8F-4735-82AA-7E210B82A918 - b5178c24fe1093b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1185">
+               </Location>
+               <Location
+                  uuid = "A2A84F8E-1D8F-4735-82AA-7E210B82A918 - b5178c24fe1092e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "896">
+               </Location>
+               <Location
+                  uuid = "A2A84F8E-1D8F-4735-82AA-7E210B82A918 - b5178c24fe1092c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58727AED-8D67-4E1A-A0A9-A725C96E14CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/NiceClinicianDriveCalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58727AED-8D67-4E1A-A0A9-A725C96E14CD - 452147953b29ba24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.NiceClinicianDriveCalculatorTests.testExample() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/NiceClinicianDriveCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "58727AED-8D67-4E1A-A0A9-A725C96E14CD - d9b3bc87609cd24c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in NiceClinicianDriveCalculatorTests.NiceClinicianDriveCalculatorTests.testPerformanceExample() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/NiceClinicianDriveCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "58727AED-8D67-4E1A-A0A9-A725C96E14CD - 452147953b29bac7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.NiceClinicianDriveCalculatorTests.testExample() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/NiceClinicianDriveCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6582C6E6-635E-406A-89AA-8B0FE3F6A791"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/AddressTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "testAddressConstructorStringInput()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6582C6E6-635E-406A-89AA-8B0FE3F6A791 - 2a9e0cd41c64a24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.AddressTest.testAddressConstructor() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/AddressTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "6582C6E6-635E-406A-89AA-8B0FE3F6A791 - 8d18816acf1e66ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.AddressTest.testAddressConstructorStringInput() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/AddressTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA9BF42A-C5AA-4D2A-97D9-83144421EB24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ViewModels/DistanceCalculators/ClinicianLabIdealDistanceCalculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "determineAndAssignIdeal(subject:target:oneWayDistanceBetweenSubjectAndTarget:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A1EEB7D-504B-4EAF-AF16-BCD6BCC32178"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculator2Tests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testFindNearestLabsForClinicians()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A1EEB7D-504B-4EAF-AF16-BCD6BCC32178 - ad982d080db34cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculator2Tests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculator2Tests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "441">
+               </Location>
+               <Location
+                  uuid = "1A1EEB7D-504B-4EAF-AF16-BCD6BCC32178 - ad982d080db34ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculator2Tests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculator2Tests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "409">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD86ED51-62EC-416A-B20C-F092219AFD74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testFindNearestLabsForClinicians()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD86ED51-62EC-416A-B20C-F092219AFD74 - b5178c24fe10ed22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "441">
+               </Location>
+               <Location
+                  uuid = "BD86ED51-62EC-416A-B20C-F092219AFD74 - b5178c24fe10ed22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "425">
+               </Location>
+               <Location
+                  uuid = "BD86ED51-62EC-416A-B20C-F092219AFD74 - b5178c24fe10eda6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianLabIdealDistanceCalculatorTests.testFindNearestLabsForClinicians() -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianLabIdealDistanceCalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "459">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B8C74D6-1B15-4F65-B63A-354FA4ABC6BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NiceClinicianDriveCalculatorTests/ClinicianIdealDrivingCalculatorViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "testSetUpLabsByState()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B8C74D6-1B15-4F65-B63A-354FA4ABC6BD - bbf73ffb22a8ea32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianIdealDrivingCalculatorViewModelTests.testSetUpLabsByState() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianIdealDrivingCalculatorViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "575">
+               </Location>
+               <Location
+                  uuid = "1B8C74D6-1B15-4F65-B63A-354FA4ABC6BD - bbf73ffb22a8ea32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NiceClinicianDriveCalculatorTests.ClinicianIdealDrivingCalculatorViewModelTests.testSetUpLabsByState() throws -&gt; ()"
+                  moduleName = "NiceClinicianDriveCalculatorTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joshlam/NiceHealthcare/NiceClinicianDriveCalculator/NiceClinicianDriveCalculatorTests/ClinicianIdealDrivingCalculatorViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "630">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
