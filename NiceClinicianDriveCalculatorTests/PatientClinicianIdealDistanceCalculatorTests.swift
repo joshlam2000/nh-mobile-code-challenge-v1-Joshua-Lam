@@ -37,10 +37,9 @@ class PatientClinicianIdealDistanceCalculatorTests: XCTestCase {
         let clinician = mockClinician1
         clinician.distanceToNearestLab = 5
         patient.includeLab = true
-        patient.idealClinician = clinician
         let mockDistance = 10
         let patientClinicianIdealDistCal = PatientClinicianIdealDistanceCalculator()
-        let distanceWithoutLab = patientClinicianIdealDistCal.nearestVisitingClinicianTotalDistance(patient: patient, oneWayDistanceBetweenPatientAndClinician: mockDistance)
+        let distanceWithoutLab = patientClinicianIdealDistCal.nearestVisitingClinicianTotalDistance(includeLab: patient.includeLab, potentialClinican: clinician, oneWayDistanceBetweenPatientAndClinician: mockDistance)
         let expectedDistance = 30
         XCTAssertEqual(distanceWithoutLab, expectedDistance)
     }
@@ -50,10 +49,9 @@ class PatientClinicianIdealDistanceCalculatorTests: XCTestCase {
         let clinician = mockClinician1
         clinician.distanceToNearestLab = 5
         patient.includeLab = true
-        patient.idealClinician = clinician
         let mockDistance = 10
         let patientClinicianIdealDistCal = PatientClinicianIdealDistanceCalculator()
-        let distanceWithLab = patientClinicianIdealDistCal.nearestVisitingClinicianTotalDistance(patient: patient, oneWayDistanceBetweenPatientAndClinician: mockDistance)
+        let distanceWithLab = patientClinicianIdealDistCal.nearestVisitingClinicianTotalDistance(includeLab: patient.includeLab, potentialClinican: clinician, oneWayDistanceBetweenPatientAndClinician: mockDistance)
         let expectedDistance = 30
         XCTAssertEqual(distanceWithLab, expectedDistance)
     }
