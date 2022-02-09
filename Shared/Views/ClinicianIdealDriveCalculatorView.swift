@@ -42,10 +42,12 @@ struct ClinicianIdealDriveCalculatorView: View {
                     }
                     .fullScreenCover(isPresented: $viewModel.isPresented, content: {ClinicianDisplayView(viewModel: ClinicianDisplayViewModel(patient: viewModel.determineMostIdealClinicianForPatient()))})
                     .accessibility(identifier: "calFormOptimalClinicanButton")
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
                     Button("Reset") {
                         viewModel.reset()
                     }
                     .accessibility(identifier: "calFormResetButton")
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
                 }
             }) // end Form
                 .navigationBarTitle("The Nice Optimal Clinician Finder", displayMode: .inline)
